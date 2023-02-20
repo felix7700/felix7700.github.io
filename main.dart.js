@@ -23332,7 +23332,7 @@ anP(a,b){return A.aLo(a,b)},
 aLo(a,b){var s=0,r=A.B(t.z),q,p=2,o,n,m,l,k,j,i,h
 var $async$anP=A.x(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
-l=$.df().me("instructions_test").FZ(0,"*",t.z).w7("owner_id",b)
+l=$.df().me("instructions").FZ(0,"*",t.z).w7("owner_id",b)
 k=l.f
 k===$&&A.b()
 j=k.gj4().h(0,"order")
@@ -23376,7 +23376,7 @@ var $async$anL=A.x(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:i=c.rQ()
 J.kk(i,"id")
 p=4
-m=$.df().me("instructions_test")
+m=$.df().me("instructions")
 l=A.a([i],t.n4)
 m.d="POST"
 k=m.b
@@ -23421,7 +23421,7 @@ qM(a,b,c){return A.aM7(a,b,c)},
 aM7(a,b,c){var s=0,r=A.B(t.y),q,p=2,o,n,m,l,k,j,i
 var $async$qM=A.x(function(d,e){if(d===1){o=e
 s=p}while(true)switch(s){case 0:p=4
-m=$.df().me("instructions_test")
+m=$.df().me("instructions")
 l=b.rQ()
 m.d="PATCH"
 k=m.b
@@ -23513,7 +23513,7 @@ return A.p(A.anf(a,b,l,c.b),$async$Fi)
 case 6:o=e
 s=o?7:8
 break
-case 7:l=$.df().me("instructions_test")
+case 7:l=$.df().me("instructions")
 l.d="DELETE"
 k=l.b
 k===$&&A.b()
