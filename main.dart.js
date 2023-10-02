@@ -98224,7 +98224,7 @@ q=3
 m=$.ct.aB().Q
 m===$&&A.b()
 s=6
-return A.m(m.yE(n,"https://instructionss.de/#/reset-password-route"),$async$$2)
+return A.m(m.yE(n,"https://instructionss.de/#/update-password-route"),$async$$2)
 case 6:q=1
 s=5
 break
@@ -99357,7 +99357,7 @@ q=f.r
 p=f.w
 o=d.ga1H(d)
 n=A.mG(A.cg(d.ga_6()+"?",e,e,e,e,c.eU(14,B.cO,4),e,e),e,new A.aq3(a1,q,a3),e)
-m=A.i6(A.cg(d.gOj(d)+": 1.4.4",e,e,e,e,c.eU(14,B.cO,4),e,e),e,e)
+m=A.i6(A.cg(d.gOj(d)+": 1.4.4a",e,e,e,e,c.eU(14,B.cO,4),e,e),e,e)
 d=A.bQ(e,20,e)
 c=t.p
 a1=A.jV(A.a([new A.CX(25,e),new A.CW(25,e)],c),B.ad,B.aZ,B.am)
@@ -99492,7 +99492,7 @@ A.a_i.prototype={}
 A.a_V.prototype={}
 A.a_h.prototype={
 K(a){var s=null,r=A.a7(a),q=A.e0(a,B.cp,t.wr)
-return A.lH(new A.ax3(q,r,A.i6(A.cg(q.gOj(q)+": 1.4.4",s,s,s,s,r.p3.a.eU(14,B.cO,4),s,s),s,s)),new A.ax4(),t.tj,t.z)}}
+return A.lH(new A.ax3(q,r,A.i6(A.cg(q.gOj(q)+": 1.4.4a",s,s,s,s,r.p3.a.eU(14,B.cO,4),s,s),s,s)),new A.ax4(),t.tj,t.z)}}
 A.ax4.prototype={
 $2(a,b){if(!(b instanceof A.lG))if(b instanceof A.nf)A.hh(a,B.aO,b.a)},
 $S:38}
