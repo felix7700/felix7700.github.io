@@ -98224,7 +98224,7 @@ q=3
 m=$.ct.aB().Q
 m===$&&A.b()
 s=6
-return A.m(m.yE(n,"https://instructionss.de/#/update-password-route"),$async$$2)
+return A.m(m.yE(n,"https://instructionss.de/#/reset-password-route"),$async$$2)
 case 6:q=1
 s=5
 break
