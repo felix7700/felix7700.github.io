@@ -96032,7 +96032,9 @@ j=d.c
 if(j!=null)k.m(0,"Authorization","Bearer "+A.e(j))
 o=d.f
 if(o==null){j=t.N
-o=A.x(j,j)}n=A.dw(b,0,null).qd(0,o)
+o=A.x(j,j)}j=d.d
+if(j!=null){j.toString
+o.m(0,"redirect_to",j)}n=A.dw(b,0,null).qd(0,o)
 m=A.aK("response")
 j=d.e
 if(j==null){j=t.z
@@ -96291,9 +96293,9 @@ break
 case 10:case 6:return A.r(null,r)
 case 1:return A.q(p,r)}})
 return A.t($async$qy,r)},
-yE(a){return this.aAr(a)},
-aAr(a){var s=0,r=A.u(t.H),q=this,p,o,n,m,l
-var $async$yE=A.p(function(b,c){if(b===1)return A.q(c,r)
+yE(a,b){return this.aAr(a,b)},
+aAr(a,b){var s=0,r=A.u(t.H),q=this,p,o,n,m,l
+var $async$yE=A.p(function(c,d){if(c===1)return A.q(d,r)
 while(true)switch(s){case 0:s=q.ch===B.h9?2:4
 break
 case 2:p=A.b_F()
@@ -96305,7 +96307,7 @@ break
 case 4:o=null
 case 3:n=t.N
 m=A.al(["captcha_token",null],n,t.v)
-l=A.tF(A.al(["email",a,"gotrue_meta_security",m,"code_challenge",o,"code_challenge_method",o!=null?"s256":null],n,t.X),q.f,null,null,null,null)
+l=A.tF(A.al(["email",a,"gotrue_meta_security",m,"code_challenge",o,"code_challenge_method",o!=null?"s256":null],n,t.X),q.f,null,null,null,b)
 s=6
 return A.m(q.gn9().ir(0,q.e+"/recover",B.en,l),$async$yE)
 case 6:return A.r(null,r)}})
@@ -98228,7 +98230,7 @@ s=q}while(true)switch(s){case 0:q=3
 n=$.cs.aB().Q
 n===$&&A.b()
 s=6
-return A.m(n.yE(a.a),$async$$2)
+return A.m(n.yE(a.a,"https://instructionss.de/#/reset-password-route"),$async$$2)
 case 6:q=1
 s=5
 break
