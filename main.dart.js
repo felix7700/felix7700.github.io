@@ -98267,13 +98267,12 @@ $2(a,b){return this.a3t(a,b)},
 a3t(a,b){var s=0,r=A.u(t.H),q=this,p
 var $async$$2=A.p(function(c,d){if(c===1)return A.q(d,r)
 while(true)switch(s){case 0:A.ey("sign out")
-s=2
-return A.m(q.a.b.al(0),$async$$2)
-case 2:p=$.ca.az().Q
+q.a.b.al(0)
+p=$.ca.az().Q
 p===$&&A.b()
-s=3
+s=2
 return A.m(p.qy(),$async$$2)
-case 3:if(!b.d)b.a.$1(new A.pc())
+case 2:if(!b.d)b.a.$1(new A.pc())
 return A.r(null,r)}})
 return A.t($async$$2,r)},
 $S:569}
