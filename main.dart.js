@@ -96872,9 +96872,9 @@ break
 case 10:case 6:return A.B(null,r)
 case 1:return A.A(p,r)}})
 return A.C($async$qK,r)},
-yw(a,b){return this.aAf(a,b)},
-aAf(a,b){var s=0,r=A.D(t.H),q=this,p,o,n,m,l
-var $async$yw=A.z(function(c,d){if(c===1)return A.A(d,r)
+yw(a){return this.aAf(a)},
+aAf(a){var s=0,r=A.D(t.H),q=this,p,o,n,m,l
+var $async$yw=A.z(function(b,c){if(b===1)return A.A(c,r)
 while(true)switch(s){case 0:s=q.ch===B.eM?2:4
 break
 case 2:p=A.aSf()
@@ -96886,7 +96886,7 @@ break
 case 4:o=null
 case 3:n=t.N
 m=A.ao(["captcha_token",null],n,t.A)
-l=A.pL(A.ao(["email",a,"gotrue_meta_security",m,"code_challenge",o,"code_challenge_method",o!=null?"s256":null],n,t.X),q.f,null,null,null,b)
+l=A.pL(A.ao(["email",a,"gotrue_meta_security",m,"code_challenge",o,"code_challenge_method",o!=null?"s256":null],n,t.X),q.f,null,null,null,null)
 s=6
 return A.w(q.gm3().hK(0,q.e+"/recover",B.dD,l),$async$yw)
 case 6:return A.B(null,r)}})
@@ -98824,7 +98824,7 @@ q=3
 n=$.d6.aG().Q
 n===$&&A.b()
 s=6
-return A.w(n.yw(l,"https://instructionss.de/#/reset_password"),$async$$2)
+return A.w(n.yw(l),$async$$2)
 case 6:if(!b.d)b.a.$1(new A.GR())
 q=1
 s=5
@@ -99510,7 +99510,7 @@ $2(a,b){var s,r,q=this,p=null,o=q.b,n=q.c,m=n.p3.a,l=A.bD(o.gLK(),p,p,p,p,m.cq(3
 j=q.e
 s=A.kG(n.ax.f,B.d1,!0,o.gNE(),new A.alf(j,a,q.f),14,40,B.bZ,1/0)
 r=q.a
-return A.fX(new A.alg(r,j,A.eo(A.bD(o.gqu(o)+": 1.7.6",p,p,p,p,m.cq(12,B.b4,2),p,p),p,p),l,k,i,s,n),p,new A.alh(r,o),t.Y,t.z)},
+return A.fX(new A.alg(r,j,A.eo(A.bD(o.gqu(o)+": 1.7.7",p,p,p,p,m.cq(12,B.b4,2),p,p),p,p),l,k,i,s,n),p,new A.alh(r,o),t.Y,t.z)},
 $S:598}
 A.alf.prototype={
 $0(){var s=0,r=A.D(t.P),q=this
@@ -99971,7 +99971,7 @@ p=s.p3.a
 o=A.bD(r.gO7(),k,k,k,k,p.cq(38,B.y,2),k,k)
 n=A.bD(r.gZb(),k,k,k,k,p.cq(14,B.y,2),k,k)
 m=A.kG(s.ax.f,B.d1,!0,r.gYH(),new A.apw(q),14,40,B.bZ,1/0)
-l=A.eo(A.b3(A.bD(r.gqu(r)+": 1.7.6",k,k,k,k,p.cq(12,B.b4,2),k,k),100,k),k,k)
+l=A.eo(A.b3(A.bD(r.gqu(r)+": 1.7.7",k,k,k,k,p.cq(12,B.b4,2),k,k),100,k),k,k)
 p=$.d6.aG().Q
 p===$&&A.b()
 p=p.at
@@ -100059,7 +100059,7 @@ j=s.ax.f
 g=A.kG(j,B.d1,!0,r.gDy(),new A.apR(n,a,p,o),14,40,B.bZ,1/0)
 f=A.kG(j,B.d1,!0,r.gLK()+"?",new A.apS(q),14,40,B.bZ,1/0)
 e=A.kG(j,B.d1,!0,r.ga13(),new A.apT(q),14,40,B.bZ,1/0)
-return A.fX(new A.apU(this,n,A.eo(A.bD(r.gqu(r)+": 1.7.6",d,d,d,d,m.cq(12,B.b4,2),d,d),d,d),l,k,i,h,g,e,s,f),d,new A.apV(q),t.Y,t.z)}}
+return A.fX(new A.apU(this,n,A.eo(A.bD(r.gqu(r)+": 1.7.7",d,d,d,d,m.cq(12,B.b4,2),d,d),d,d),l,k,i,h,g,e,s,f),d,new A.apV(q),t.Y,t.z)}}
 A.apP.prototype={
 $0(){return""},
 $S:16}
@@ -100136,7 +100136,7 @@ d=i.gE3(i)
 s=A.ou(j,B.j,A.mf(j,j,j,j,j,j,j,j,!0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,!1,j,j,g.cq(12,B.b4,2),d,j,j,j,j,j,j,j,j,j,j,j,j,j),!0,k.e)
 d=k.f
 r=A.kG(h.ax.f,B.d1,!0,i.gNu(i),new A.atW(d,a,k.r,k.w),14,40,B.bZ,1/0)
-q=A.eo(A.bD(i.gqu(i)+": 1.7.6",j,j,j,j,g.cq(12,B.b4,2),j,j),j,j)
+q=A.eo(A.bD(i.gqu(i)+": 1.7.7",j,j,j,j,g.cq(12,B.b4,2),j,j),j,j)
 i=t.p
 h=A.fZ(A.a([q,A.b3(j,8,j)],i),B.J,B.d0,B.R)
 g=A.b3(j,20,j)
@@ -100205,7 +100205,7 @@ q=q.d
 p=q==null?k:q.c
 if(p==null)p="no act"
 l.a.toString
-o=A.eo(A.bD(j.gqu(j)+": 1.7.6",k,k,k,k,s.p3.a.cq(14,B.b4,4),k,k),k,k)
+o=A.eo(A.bD(j.gqu(j)+": 1.7.7",k,k,k,k,s.p3.a.cq(14,B.b4,4),k,k),k,k)
 j=A.iB(B.afq,B.p,k,!0,k,k,k,new A.aIW(),k,k)
 q=A.bD("accessToken == "+p,k,k,k,k,k,k,k)
 n=A.ou(l.e,k,B.Sw,!1,new A.aIX())
@@ -100325,7 +100325,7 @@ gcD(a){return this.a}}
 A.a_g.prototype={
 J(a){var s=null,r=A.W(a),q=A.cV(a,B.aI,t.B)
 q.toString
-return A.fX(new A.axc(q,r,A.hT(a,!1).f,A.eo(A.bD(q.gqu(q)+": 1.7.6",s,s,s,s,r.p3.a.cq(14,B.b4,4),s,s),s,s)),s,new A.axd(),t.Y,t.z)}}
+return A.fX(new A.axc(q,r,A.hT(a,!1).f,A.eo(A.bD(q.gqu(q)+": 1.7.7",s,s,s,s,r.p3.a.cq(14,B.b4,4),s,s),s,s)),s,new A.axd(),t.Y,t.z)}}
 A.axd.prototype={
 $2(a,b){if(!(b instanceof A.iP))if(b instanceof A.hv)A.iw(a,B.be,b.a)},
 $S:19}
